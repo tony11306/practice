@@ -111,7 +111,7 @@ def rowSwap(matrix, firstRowIndex, secondRowIndex):
         matrix[secondRowIndex][i] = temp
     return matrix
 
-
+# main
 
 print(f'n元一次聯立方程式?')
 n = int(input())
