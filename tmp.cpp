@@ -52,7 +52,7 @@ void displayResult() {
     pair<string, int> winner = getWinner();
     int totalVotes = 0;
 
-    cout << "           --------------Election Results--------------           " << endl;
+    cout << "           --------------Election Results--------------           " << endl << endl;
     cout << "Candidate                       votes" << endl;
     cout << "Name        Region1   Region2   Region3   Region4     Total" << endl;
     cout << "---------   -------   -------   -------   -------   -------" << endl;
