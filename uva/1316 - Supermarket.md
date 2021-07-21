@@ -12,11 +12,9 @@ const int INF = ~(1<<31);
 
 void solve(int n) {
     map<int, vector<int>> mp;
-    int maxD = 0;
     while(n--) {
         int p, d;
         cin >> p >> d;
-        maxD = max(maxD, d);
         mp[d].push_back(p);
     }
 
