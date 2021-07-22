@@ -1,3 +1,4 @@
+```c++
 // 暴力剪枝 醜到靠杯 極限1.58s過關
 #include<bits/stdc++.h>
 #define ll long long
@@ -86,3 +87,4 @@ int main() {
         solve();
     }
 }
+```
