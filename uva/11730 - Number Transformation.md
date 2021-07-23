@@ -80,11 +80,7 @@ int main() {
     buildPrimes();
     buildDp();
 
-    FOR_EACH_CASE(INF) {
-        cin >> s >> t;
-        if(s == 0 && t == 0) {
-            break;
-        }
+    FOR_EACH_CASE(INF && cin >> s >> t && s != 0 && t != 0) {
         cout << dp[s][t] << endl;
     }
     system("pause");
