@@ -1,4 +1,5 @@
 ```c++
+// 因為要檢查所有任意兩點間的路徑，所以需要用到 folyd-warshall 演算法，用 dijkstra 感覺會超時。
 #include<bits/stdc++.h>
 #define ll long long
 #define endl "\n"
