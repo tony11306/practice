@@ -38,7 +38,7 @@ int query(int* bit, int a) {
 
 void solve(int n) {
     int arr[n+1];
-    int d[n+1]; 第 i 大的數為 arr[d[i]]，用來離散化資料
+    int d[n+1]; // 第 i 大的數為 arr[d[i]]，用來離散化資料
     for(int i = 1; i <= n; ++i) {
         cin >> arr[i];
         d[i] = i;
