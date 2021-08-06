@@ -30,6 +30,15 @@ class SegmentTreeNode{
             //cout << startI << "-" << endI << ":" << this->sum << endl;
             
         }
+    
+        ~SegmentTreeNode() {
+            if(left != nullptr) {
+                delete left;
+            }
+            if(right != nullptr) {
+                delete right;
+            }
+        }
 
         void update(int index, int value){
             if(this->endIndex == index && this->startIndex == index){
