@@ -21,7 +21,7 @@
 
 > 花費時間: 10分鐘，完成程度: 完全靠自己
 
-![hw-1-3-IO](imgs/hw-1-3-IO.png)
+![hw-1-3-IO](imgs/leetcode704.png)
 
 ### Sol-1. 線搜(N)
 
@@ -179,7 +179,7 @@ public:
 
 > 花費時間: 10分鐘，完成程度: 完全靠自己
 
-![hw1-6io](imgs/hw1-6-IO.png)
+![hw1-6io](imgs/leetcode69.png)
 ```c++
 #include <bits/stdc++.h>
 #define endl "\n"
@@ -195,7 +195,7 @@ int solve(int n) {
     int r = n-1;
     
     while(l < r) {
-        int mid = l + (r-l) / 2;
+        long long mid = l + (r-l) / 2;
         if((mid+1) * (mid+1) > n) {
             r = mid;
         } else {
