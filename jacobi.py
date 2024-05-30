@@ -7,7 +7,7 @@ def jacobi_matrix_iteration(A, b, x0, tol, max_iter):
     D = np.diag(np.diag(A))
     R = A - D
     if not check_spectral_radius_less_than_1(D, R):
-        raise ValueError("Spectral radius is not less than 1, Jacobi method may not converge.")
+        raise ValueError("Spectral radius is not less than 1, Jacobi method will not converge.")
 
     for i in range(max_iter):
         x_new = np.linalg.solve(D, b - np.dot(R, x))
